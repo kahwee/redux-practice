@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import reducers from "./reducers";
 class Incremator extends React.Component {
   render() {
     const { counter, helpMsg } = this.props;
